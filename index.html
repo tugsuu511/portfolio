@@ -13,72 +13,430 @@
     />
   </head>
   <body>
-    <header>
-      <div class="header center">
-        <div class="header-container">
-          <div class="name">TOM</div>
-          <div class="navigation">
-            <div class="link">About</div>
-            <div class="link">Work</div>
-            <div class="link">Testimonials</div>
-            <div class="link">Contact</div>
-            <hr class="divider" />
-            <div class="icon">
-              <img
-                style="width: 36px; margin-right: 24px"
-                src="image/header-icon.png"
-              />
-              <button class="btn">Download CV</button>
+    <header class="container">
+      <div class="header">
+        <div class="name">TOM</div>
+        <div class="navigation">
+          <div class="link">About</div>
+          <div class="link">Work</div>
+          <div class="link">Testimonials</div>
+          <div class="link">Contact</div>
+          <hr class="divider" />
+          <div class="icon">
+            <img
+              style="width: 36px; margin-right: 24px"
+              src="image/header-icon.png"
+            />
+            <button class="btn">Download CV</button>
+          </div>
+        </div>
+
+        <img
+          class="header-mobile-icon"
+          src="image/header-mobile-icon.png"
+          style="width: 36px"
+        />
+      </div>
+    </header>
+    <main class="container">
+      <div class="hero-container">
+        <div class="hero-text">
+          <div class="content">
+            <div class="hi">Hi, I’m Tom 👋</div>
+            <div style="font-size: 16px; font-weight: 400; line-height: 24px">
+              I specialize in full stack development, particularly with React.js
+              and Node.js. My main goal is to create exceptional digital
+              experiences that are fast, visually appealing, and accessible to
+              everyone. With over 7 years of experience in web development, I
+              continue to find joy in crafting innovative solutions and designs.
+            </div>
+          </div>
+          <div class="group">
+            <div class="location">
+              <img style="width: 24px" src="image/location.png" />
+              <div>Ulaanbaatar, Mongolia</div>
+            </div>
+            <div class="hire">
+              <img style="width: 24px" src="image/hire.png" />
+              <div>Available for new projects</div>
+            </div>
+          </div>
+          <div class="action">
+            <img style="width: 36px" src="image/github.png" />
+            <img style="width: 36px" src="image/twitter.png" />
+            <img style="width: 36px" src="image/figma.png" />
+          </div>
+        </div>
+
+        <div class="pic-container">
+          <img class="pic" src="image/Pic.png" />
+          <div class="background"></div>
+        </div>
+      </div>
+      <div class="about-section">
+        <div class="tag">About me</div>
+
+        <div class="about">
+          <div class="about-text">
+            <div class="about-pic-container">
+              <img class="about-pic" src="image/about-pic.png" />
+              <div class="about-pic-background"></div>
+            </div>
+          </div>
+          <div class="about-text">
+            <div
+              style="
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 36px;
+                text-align: left;
+              "
+            >
+              Curious about me? Here you have it:
+            </div>
+            <div>
+              <h6 class="about-main-text">
+                I'm a designer turned full stack developer, passionate about
+                React.js and Node.js. I excel in blending technical and visual
+                aspects to craft exceptional digital products, prioritizing user
+                experience, precise design, and optimized code.
+              </h6>
+              <h6 class="about-main-text">
+                Since starting my web development journey in 2015, I've embraced
+                challenges and kept up with the latest tech trends. Now in my
+                early thirties, seven years in, I'm building cutting-edge web
+                apps using Next.js, TypeScript, Nestjs, Tailwindcss, Supabase,
+                and more.
+              </h6>
+              <h6 class="about-main-text">
+                With a progressive mindset, I enjoy the entire product
+                development process, from ideation to execution. Off duty,
+                you'll find me on Twitter, tracking startup journeys, or
+                unwinding. Follow me for tech insights and public project
+                updates on Twitter or GitHub.
+              </h6>
+              <h6 class="about-main-text">
+                Finally, some quick bits about me.
+              </h6>
+              <div style="display: flex; gap: 10px">
+                <div>
+                  <li>B.E. in Computer Engineering</li>
+                  <li>Full time freelancer</li>
+                </div>
+                <li>Avid learner</li>
+              </div>
+              <h6 class="about-main-text">
+                One last thing, I'm available for freelance work, so feel free
+                to reach out and say hello! I promise I don't bite 😉
+              </h6>
             </div>
           </div>
         </div>
       </div>
-    </header>
-    <main>
-      <div class="hero center">
-        <div class="hero-container">
-          <div class="hero-text">
-            <div class="content">
-              <div
-                style="font-size: 60px; font-weight: 700; letter-spacing: -2%"
-              >
-                Hi, I’m Tom 👋
-              </div>
-              <div style="font-size: 16px; font-weight: 400; line-height: 24px">
-                I specialize in full stack development, particularly with
-                React.js and Node.js. My main goal is to create exceptional
-                digital experiences that are fast, visually appealing, and
-                accessible to everyone. With over 7 years of experience in web
-                development, I continue to find joy in crafting innovative
-                solutions and designs.
-              </div>
+      <div class="skills-section container">
+        <div class="skills-tag center">Skills</div>
+        <div class="skills-text">
+          The skills, tools and technologies I am really good at:
+        </div>
+          <div class="icon-container" style="margin-bottom: 48px; max-width: 960px;">
+            <div style="display: flex; flex-direction: column">
+              <img
+                class="skills-icon"
+                src="image/icon-javscript.png"
+              />Javascript
             </div>
-            <div class="group">
-              <div class="location">
-                <img style="width: 24px" src="image/location.png" />
-                <div>Ulaanbaatar, Mongolia</div>
-              </div>
-              <div class="hire">
-                <img style="width: 24px" src="image/hire.png" />
-                <div>Available for new projects</div>
-              </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-typescript.png" />
+              <div>Typescript</div>
             </div>
-            <div class="action">
-              <img style="width: 36px" src="image/github.png" />
-              <img style="width: 36px" src="image/twitter.png" />
-              <img style="width: 36px" src="image/figma.png" />
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-react.png" />
+              <div>React</div>
             </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-nextjs.png" />
+              <div>Next,js</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-nodejs.png" />
+              <div>Node.js</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-express.png" />
+              <div>Express.js</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-nest.png" />
+              <div>Nest.js</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-socket.png" />
+              <div>Socket.io</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-postgresql.png" />
+              <div>PostgreSQL</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-mongodb.png" />
+              <div>MongoDB</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-sass.png" />
+              <div>Sass/Scss</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-tailwindcss.png" />
+              <div>Tailwindcss</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-figma.png" />
+              <div>Figma</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-cypress.png" />
+              <div>Cypress</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-storybook.png" />
+              <div>Storybook</div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+              <img class="skills-icon" src="image/icon-git.png" />
+              <div>Git</div>
+            </div>
+          
+        </div>
+      </div>
+      <div class="experience-section container">
+        <div style="display: flex; flex-direction: column; align-items: center">
+          <div
+            class="skills-tag center"
+            style="width: 115px; margin-bottom: 20px"
+          >
+            Experience
           </div>
-          <div class="hero-pic">
-            <div class="pic-container">
-              <img class="pic" src="image/Pic.png" />
-              <div class="background"></div>
+          <div class="skills-text" style="margin: 0px">
+            Here is a quick summary of my most recent experiences:
+          </div>
+        </div>
+        <div class="experience-container">
+          <img class="upwork-logo" src="image/logo-upwork.png" />
+          <p class="experience-mobile">Nov 2021 - Present</p>
+          <div class="experience-text">
+            <p>Sr. Frontend Developer</p>
+
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                numquam!
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
+                fuga.
+              </li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            </ul>
+          </div>
+          <p class="experience-desktop">Nov 2021 - Present</p>
+        </div>
+        <div class="experience-container">
+          <img class="upwork-logo" src="image/logo-upwork.png" />
+          <p class="experience-mobile">Nov 2021 - Present</p>
+          <div class="experience-text">
+            <p>Sr. Frontend Developer</p>
+
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                numquam!
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
+                fuga.
+              </li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            </ul>
+          </div>
+          <p class="experience-desktop">Nov 2021 - Present</p>
+        </div>
+        <div class="experience-container">
+          <img class="upwork-logo" src="image/logo-upwork.png" />
+          <p class="experience-mobile">Nov 2021 - Present</p>
+          <div class="experience-text">
+            <p>Sr. Frontend Developer</p>
+
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                numquam!
+              </li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus,
+                fuga.
+              </li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+            </ul>
+          </div>
+          <p class="experience-desktop">Nov 2021 - Present</p>
+        </div>
+      </div>
+      <div class="work-section container">
+        <div style="display: flex; flex-direction: column; align-items: center">
+          <div
+            class="skills-tag center"
+            style="width: 75px; margin-bottom: 20px"
+          >
+            Work
+          </div>
+          <div class="skills-text" style="margin: 0px">
+            Some of the noteworthy projects I have built:
+          </div>
+        </div>
+        <div class="work-container">
+          <div class="work-subcontainer-pic">
+            <img src="image/ubcab.png" style="width: 100%; height: 100%" />
+          </div>
+          <div class="work-subcontainer-text">
+            <p class="work-title">UBCab</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae omnis nobis nam vero repellat ea enim ipsa ut totam
+              quo?
+            </p>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 8px;
+              "
+            >
+              <div class="skills-tag center">React</div>
+              <div class="skills-tag center">Next,js</div>
+              <div class="skills-tag center">Typescript</div>
+              <div class="skills-tag center">Nest.js</div>
+              <div class="skills-tag center">PostgreSQL</div>
+              <div class="skills-tag center">Tailwindcss</div>
+              <div class="skills-tag center">Figma</div>
+              <div class="skills-tag center">Cypress</div>
+              <div class="skills-tag center">Storybook</div>
+              <div class="skills-tag center">Git</div>
             </div>
+            <img style="margin-top: 24px;" src="image/work-icon.png" />
+          </div>
+        </div>
+        <div class="work-container1">
+          <div class="work-subcontainer-text">
+            <p class="work-title">Mentorhub</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae omnis nobis nam vero repellat ea enim ipsa ut totam
+              quo?
+            </p>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 8px;
+              "
+            >
+              <div class="skills-tag center">React</div>
+              <div class="skills-tag center">Next,js</div>
+              <div class="skills-tag center">Typescript</div>
+              <div class="skills-tag center">Nest.js</div>
+              <div class="skills-tag center">PostgreSQL</div>
+              <div class="skills-tag center">Tailwindcss</div>
+              <div class="skills-tag center">Figma</div>
+              <div class="skills-tag center">Cypress</div>
+              <div class="skills-tag center">Storybook</div>
+              <div class="skills-tag center">Git</div>
+            </div>
+            <img style="margin-top: 24px;"  src="image/work-icon.png" />
+          </div>
+          <div class="work-subcontainer-pic">
+            <img
+              src="image/Mentorhub-pic.png"
+              style="width: 100%; height: 100%"
+            />
+          </div>
+        </div>
+        <div class="work-container">
+          <div class="work-subcontainer-pic">
+            <img src="image/itoim.png" style="width: 100%; height: 100%" />
+          </div>
+          <div class="work-subcontainer-text">
+            <p class="work-title">iToim</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repudiandae omnis nobis nam vero repellat ea enim ipsa ut totam
+              quo?
+            </p>
+            <div
+              style="
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 8px;
+              "
+            >
+              <div class="skills-tag center">React</div>
+              <div class="skills-tag center">Next,js</div>
+              <div class="skills-tag center">Typescript</div>
+              <div class="skills-tag center">Nest.js</div>
+              <div class="skills-tag center">PostgreSQL</div>
+              <div class="skills-tag center">Tailwindcss</div>
+              <div class="skills-tag center">Figma</div>
+              <div class="skills-tag center">Cypress</div>
+              <div class="skills-tag center">Storybook</div>
+              <div class="skills-tag center">Git</div>
+            </div>
+            <img style="margin-top: 24px;"  src="image/work-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="contact-me-section container">
+        <div style="align-items: center; display: flex; flex-direction: column">
+          <div class="skills-tag center" style="margin-bottom: 20px">
+            Get in touch
+          </div>
+          <div class="skills-text contactme-text">
+            What’s next? Feel free to reach out to me if you're looking for a
+            developer, have a query, or simply want to connect.
+          </div>
+        </div>
+        <div>
+          <div class="contact-main">
+            <img class="contact-icon" src="image/email-icon.png" />
+            <div class="mail">tom@pinecone.mn</div>
+            <img class="contact-icon" src="image/contact-me-button.png" />
+          </div>
+          <div class="contact-main">
+            <img class="contact-icon" src="image/call-icon.png" />
+            <div class="mail">+976 88112233</div>
+            <img class="contact-icon" src="image/contact-me-button.png" />
+          </div>
+        </div>
+        <div>
+          <div>You may also find me on these platforms!</div>
+          <div class="social-icons">
+            <img style="width: 36px" src="image/github.png" />
+            <img style="width: 36px" src="image/twitter.png" />
+            <img style="width: 36px" src="image/figma.png" />
           </div>
         </div>
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer center">
+        <img src="image/footer-icon.png" style="width: 16px; height: 16px" />
+        <div>2024 | Greetings with ❤️️ from Ulaanbaatar</div>
+      </div>
+    </footer>
   </body>
 </html>
